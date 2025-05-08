@@ -15,7 +15,7 @@ while True:
     command = input("Enter command (or 'exit' to quit): ").strip()
 
     if not command:
-        continue  # Ignore empty input
+        continue 
     
     conn.send(command.encode())
 
